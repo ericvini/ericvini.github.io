@@ -1,3 +1,11 @@
+
+*{
+
+    margin: 35px;
+    padding: 35px;
+}   
+
+
 h4 {
 
 font-family: Arial, Helvetica, sans-serif;
@@ -10,22 +18,17 @@ background-color: tomato;
 
 }
 
-#sobre-mim < p {
-
-
-
-}
 
 .habilidade-javascript{
 
     font-size: 20px;
 }
 
-.habilidade-html{
+/*.habilidade-html{
 
 
     font-size: 40px;
-}
+}*/
 
 .habilidade-git{
 
@@ -33,7 +36,34 @@ background-color: tomato;
 }
 
 
-.habilidade-css{
+/*.habilidade-css{
 
     font-size: 40px;
+}*/
+
+#nome {
+
+text-align: center;
+
+}
+
+#foto-perfil {
+
+background-color: blueviolet;
+padding: 10px;
+
+}
+
+.bio>p{
+
+    position: relative;
+    margin-right: 10px;
+}
+
+
+
+figure{
+
+    float: left;
+    margin: 0 10px 10px 0;
 }
